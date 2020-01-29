@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0, 10%, 0, 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image {
+    height: 90vh;
+    /* background-image: linear-gradient(#030303da, #2000699d), url("../img/bg.jpg"); */
+
+    /* Specifiq image positioning */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Hero text*/
+
+.hero-text {
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
